@@ -5,7 +5,7 @@ import joblib
 # -----------------------------
 # Load trained model
 # -----------------------------
-model = joblib.load("model = joblib.load("house_price_real_model_small.pkl")")
+model = joblib.load("house_price_real_model_small.pkl")
 feature_columns = joblib.load("real_feature_columns.pkl")
 
 # -----------------------------
